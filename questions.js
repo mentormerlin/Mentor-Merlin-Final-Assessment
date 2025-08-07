@@ -18,7 +18,7 @@ const questions = [
   {
     id: 2,
     type: 'mcq',
-    question: 'What is the opening time and session starting time at the Northampton Centre?',
+    question: 'What is the opening time and session starting time at the Merlin Centre, Northampton?',
     options: ['8:30 AM & 9:00 AM', '9:00 AM & 9:30 AM', '9:30 AM & 10:00 AM', '10:00 AM & 10:30 AM'],
     correctIndex: 1,
     explanation: 'At the Northampton Centre the doors open at 9:00 AM and the session starts at 9:30 AM.'
@@ -26,8 +26,8 @@ const questions = [
   {
     id: 3,
     type: 'mcq',
-    question: 'What happens if a candidate fails the CBT three times?',
-    options: ['They can rebook immediately', 'They must attend a training session', 'They must restart the NMC process and wait up to 6 months', 'They can only rebook after 1 month'],
+    question: 'What happens if a candidate fails the CBT three times',
+    options: ['They can rebook immediately', 'They can only rebook after 10 days', 'They must restart the NMC process and wait up to 6 months', 'They can only rebook after 1 month'],
     correctIndex: 2,
     explanation: 'Failing the CBT three times requires candidates to restart the NMC process and wait up to six months before rebooking.'
   },
@@ -42,18 +42,18 @@ const questions = [
   {
     id: 5,
     type: 'mcq',
-    question: 'Which pathway allows combining two OET scores within 12 months for NMC approval?',
-    options: ['My Practice', 'IELTS Clubbing', 'OET Clubbing', 'My Training'],
-    correctIndex: 2,
-    explanation: 'OET Clubbing allows candidates to combine two OET scores taken within 12 months to meet NMC requirements.'
+    question: 'What is the maximum duration between two OET results to be eligible for clubbing according to the UK NMC?',
+    options: ['6 months', '1 year', '2 years', '3 months'],
+    correctIndex: 1,
+    explanation: 'The maximum duration between two OET results to be eligible for clubbing according to the UK NMC is 1 year.'
   },
   {
     id: 6,
     type: 'mcq',
-    question: 'How many scenario-based stations are part of the OSCE exam?',
+    question: 'How many OSCE stations are based on a single scenario?',
     options: ['1', '2', '3', '4'],
-    correctIndex: 1,
-    explanation: 'The OSCE exam includes two scenario‑based stations, in addition to the APIE and skills stations.'
+    correctIndex: 3,
+    explanation: '4 OSCE stations are based on a single scenario.'
   },
   {
     id: 7,
@@ -107,17 +107,17 @@ const questions = [
     id: 13,
     type: 'mcq',
     question: 'What happens if an OSCE candidate fails 8 stations?',
-    options: ['Partial resit', 'Rebook 3 failed stations', 'Full resit required', 'Appeal the result'],
+    options: ['Book Full re-sit and appear 10 stations', 'Rebook 3 failed stations', 'Book Full re-sit and appear failed 8 stations', 'Book Full re-sit and appear random 8 stations'],
     correctIndex: 2,
-    explanation: 'Failing eight stations means a full resit of the OSCE exam is required.'
+    explanation: 'Failing eight stations means, the candidate should go for a full re-sit and appear for failed 8 stations.'
   },
   {
     id: 14,
     type: 'mcq',
-    question: 'What is the first step in Mentor Merlin’s VC OSCE pathway?',
-    options: ['Apply for a UK Visitor Visa', 'Start OSCE Training', 'Placement Assistance', 'NMC Application'],
-    correctIndex: 3,
-    explanation: 'The VC OSCE pathway begins with submitting your NMC application.'
+    question: 'What is the first step in Mentor Merlin'''s VC OSCE pathway?',
+    options: ['Apply for a UK Visitor Visa', 'Start OSCE Training', 'Meet financial requirements', 'NMC Application'],
+    correctIndex: 2,
+    explanation: 'The VC OSCE pathway begins with meeting financial requirements.'
   },
   {
     id: 15,
@@ -163,17 +163,17 @@ const questions = [
     id: 20,
     type: 'mcq',
     question: 'What is the grammar class timing for the Mentor Merlin’s OET 7‑day grammar module?',
-    options: ['10 AM and 4 PM', '9 AM and 6 PM UK time', '11 AM and 7 PM', '8 AM and 5 PM UK time'],
+    options: ['10 AM and 4 PM UK time', '9 AM and 6 PM UK time', '11 AM and 7 PM UK time', '8 AM and 5 PM UK time'],
     correctIndex: 1,
     explanation: 'Grammar classes run twice daily at 9 AM and 6 PM UK time.'
   },
   {
     id: 21,
     type: 'mcq',
-    question: 'How many APIE stations are included in the OSCE exam?',
-    options: ['2', '4', '6', '8'],
-    correctIndex: 1,
-    explanation: 'Four stations in the OSCE focus on the Assessment, Planning, Implementation and Evaluation (APIE) framework.'
+    question: 'How many stations are included in the OSCE exam?',
+    options: ['2', '4', '10', '8'],
+    correctIndex: 2,
+    explanation: 'Ten stations are included in the OSCE exam framework.'
   },
   {
     id: 22,

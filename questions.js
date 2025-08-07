@@ -26,7 +26,7 @@ const questions = [
   {
     id: 3,
     type: 'mcq',
-    question: 'What happens if a candidate fails the CBT three times',
+    question: 'What happens if a candidate fails the CBT three times?',
     options: ['They can rebook immediately', 'They can only rebook after 10 days', 'They must restart the NMC process and wait up to 6 months', 'They can only rebook after 1 month'],
     correctIndex: 2,
     explanation: 'Failing the CBT three times requires candidates to restart the NMC process and wait up to six months before rebooking.'
